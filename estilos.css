@@ -1,0 +1,85 @@
+ body {
+  background-color: mistyrose;
+}
+article section div {
+    background-color: rgb(222, 213, 227);
+    width: 75%;
+    float: left;
+}
+article section1 div {
+    background-color: rgb(222, 213, 227);
+    width: 75%;
+    float: left;
+}
+article section2 div {
+    background-color: rgb(222, 213, 227);
+    width: 75%;
+    float: left;
+}
+aside div {
+    width: 24%;
+    float: left;
+   background-color: rgb(222, 213, 227);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+article section div img {
+  width: 33%;
+  height: auto;
+}
+article section1 div img {
+  width: 95%;
+  height: auto;
+}
+article section2 div img {
+  width: 49%;
+  height: auto;
+}
+ul {
+}
+
+li {
+  font-size: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+  border: 1px solid #ffffff;
+  background-color: #f0cce5;
+}
+
+nav ul li {
+  float: left;
+  font-size: 18px;
+}
+
+ul li a {
+  display: block;
+  color: #666666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover:not(.active) {
+  background-color: #dddddd;
+}
+
+ul li a.active {
+  background-color: #cec3d9;
+}
+
+p {
+  font-size: 24px;
+}
+  footer div{
+    background-color: rgb(227, 204, 230);
+    float: none;
+    text-align: center; 
+}
